@@ -13,6 +13,7 @@ def game():
             break
 
         if user_input not in options:
+            print("That's not Rock, Paper or Scissors! Try again.")
             continue
 
         random_number = random.randint(0, 2)
